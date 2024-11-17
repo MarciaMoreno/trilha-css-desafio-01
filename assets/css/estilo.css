@@ -54,6 +54,10 @@ hr{ border: solid 1px #1472B7; width: 1440px;}
     letter-spacing: 8px;
     border: solid 4px #33A8DB;
  }
+ .bloco01 button a{ color: #1472B7; text-decoration: none;}
+ .bloco01 button a:visited{ color: #1472B7;}
+ .bloco01 button a:hover{ color: #b7efff;}
+
 
 
  /******************************************************************************/
@@ -104,6 +108,18 @@ hr{ border: solid 1px #1472B7; width: 1440px;}
     margin-left: 20%;
     margin-right: 20%;
 }
-.bloco03 img{ 
-    object-position: 50% 50%;
+.bloco03 figure img{ margin: auto; margin-left: 25%; }
+.bloco03 figcaption{ width: 60%; text-align: center; margin: auto; }
+.bloco03 figcaption p{ font-size: 18px; padding: 5% 0% 10% 0%;}
+
+ /******************************************************************************/
+/*  EDIÇÃO DO FOOTER      *****************************************************/
+
+footer { 
+    padding: 5% 0% 3% 0%;
+    width: 600px;
+    margin: auto;
+    text-align: center;
 }
+footer a{ color: #33A8DB; font-weight: 800; text-decoration: none;}
+footer a:hover{ color: #b7efff;}
