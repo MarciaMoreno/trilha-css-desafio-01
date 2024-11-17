@@ -50,6 +50,8 @@ hr{ border: solid 1px #1472B7; width: 1440px;}
 
  /******************************************************************************/
 /*  EDIÇÃO DO MAIN      *****************************************************/
+
+/***BLOCO 02*****/
 .bloco02{ margin-top: 5%; text-align: center;}
 .bloco02 h2{
     font-size: 2rem;
@@ -60,12 +62,23 @@ hr{ border: solid 1px #1472B7; width: 1440px;}
     margin-bottom: 24px;
 }
 .bloco02 span{ 
+    display: block;
     color: white;
     width: 530px;
-    
+    margin: 2% auto;
     border: 1px solid #33A8DB;
     background-color: #252525;
     padding: 16px;
     border-radius: 100px;
     box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+/***BLOCO FOTO-MAIN*****/
+.foto-main{
+    height: 560px;
+    background-size: cover;
+    background-image: url("../images/woman-code.png");
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+    padding: 200px;
 }
